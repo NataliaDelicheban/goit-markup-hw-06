@@ -463,6 +463,51 @@ margin-left: 10px;
     background-color: var(--accent-color);
     color: var(--btn-color);
 }
+
+.footer-send {
+    margin-left: 93px;
+    display: block;
+}
+.footer-wrap {
+    display: flex;
+}
+.footer-input {
+    width: 358px;
+    height: 50px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    margin-right: 12px;
+    padding-left: 16px;
+    outline: none;
+}
+.footer-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-btn-submit {
+width: 200px;
+height: 50px;
+background-color: var(--accent-color);
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+outline: none;
+}
+.icon-send {
+    margin-left: 10px;
+}
 /* Portfolio */
 .filter-list {
     margin-bottom: 50px;
@@ -476,7 +521,7 @@ margin-left: 10px;
 .filter-btn {
 font-family: inherit;
 font-weight: 500;
-font-size: 16px;
+font-size: 36px;
 line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
@@ -582,6 +627,8 @@ margin-top: 4px;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 40px;
+    
 }
 .modal-close {
     position: absolute;
@@ -596,6 +643,15 @@ margin-top: 4px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
 }   
+.modal-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+        margin-bottom: 12px;
+}
 .is-hidden {
     opacity: 0;
     pointer-events: none;
